@@ -1,0 +1,12 @@
+! r2scan-3c D4 MD 
+%md
+  initvel 300_K
+  timestep 0.5_fs
+  thermostat berendsen 300_K timecon 10.0_fs
+  dump position stride 1 filename "trajectory.xyz"
+  run 2000
+end
+%pal
+ nprocs 64
+end
+* xyzfile 0 1 inp.xyz

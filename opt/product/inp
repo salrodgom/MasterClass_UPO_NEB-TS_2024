@@ -1,0 +1,6 @@
+!r2scan-3c Opt D4 Freq TightOpt
+%pal
+ nprocs 32
+end
+* xyzfile 0 1 inp.xyz
+

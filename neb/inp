@@ -1,0 +1,8 @@
+!r2scan-3c Opt D4 NEB-TS Freq
+%pal
+ nprocs 32
+end
+%NEB
+ NEB_end_XYZFile "product.xyz"
+end
+* XYZfile 0 1 reactant.xyz
