@@ -1,4 +1,4 @@
-! r2scan-3c D4 MD 
+! XXXXXX
 %md
   initvel 300_K
   timestep 0.5_fs
@@ -9,4 +9,4 @@ end
 %pal
  nprocs 64
 end
-* xyzfile 0 1 inp.xyz
+* xyzfile 0 1 XXXXXX
